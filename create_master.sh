@@ -9,7 +9,7 @@ echo "<style>h1 {color:red;font-family:verdana;font-size:200%;} b  {    color:gr
 echo "<h1>EV3lessons.com v4.9.5 Simple Edition (v1.5.1 Code Base)</h1>" >> $OUTPUT
 echo "<p>This is an auto-generated site with just the English lessons. This contains just the bare minimum js/css/html to download the content. It is intended for use on old browsers/computers or networks with very low bandwith.</p>" >> $OUTPUT
 #echo "<UL>" > $OUTPUT
-for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d| sort`; do
+for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| sort`; do
   path=`basename "$filepath"`
   echo "  <a href='"$path"/index.html'><img src='folder.gif'> $path</a><br>" >> $OUTPUT
 #  echo "  <UL>" >> $OUTPUT
