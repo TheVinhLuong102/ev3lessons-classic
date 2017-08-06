@@ -20,6 +20,6 @@ for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| fgr
 #  done
 #  echo "  </UL>" >> $OUTPUT
 done
-  echo "<a href='http://www.ev3lessons.com/resources/wheelconverter/calc.html'><img src='folder.gif'> EV3lessons Wheel Converter</a><br>" >> $OUTPUT
+  echo "<a href='http://archive.ev3lessons.com/web/ev3lessons-v3/wheelconverter/'><img src='folder.gif'> EV3lessons Wheel Converter</a><br>" >> $OUTPUT
   echo "<a href='coachcorner.html'><img src='folder.gif'> Coach's Corner</a><br>" >> $OUTPUT
 #echo "</UL>" >> $OUTPUT
