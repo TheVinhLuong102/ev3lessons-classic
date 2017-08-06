@@ -11,5 +11,11 @@ cd ..
 cd beyond
 bash ../create_lessons.sh Beyond
 cd ..
+cd swift
+bash ../create_lessons.sh Swift
+cd ..
+cd tablet
+bash ../create_lessons.sh Tablet
+cd ..
 bash create_master.sh
 

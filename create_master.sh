@@ -1,5 +1,6 @@
 #!/bin/bash
 rm *.html
+cp coachcorner.tmp coachcorner.html
 ROOT=./
 HTTP="./"
 OUTPUT="index.html" 
@@ -9,7 +10,7 @@ echo "<style>h1 {color:red;font-family:verdana;font-size:200%;} b  {    color:gr
 echo "<h1>EV3lessons.com v4.9.5 Simple Edition (v1.5.1 Code Base)</h1>" >> $OUTPUT
 echo "<p>This is an auto-generated site with just the English lessons. This contains just the bare minimum js/css/html to download the content. It is intended for use on old browsers/computers. </p><b>You have been redirected here because you are using an old browser (older than Microsoft Internet Explorer 9.0)</b><br>" >> $OUTPUT
 #echo "<UL>" > $OUTPUT
-for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| sort`; do
+for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| fgrep -v coach|sort`; do
   path=`basename "$filepath"`
   echo "  <a href='"$path"/index.html'><img src='folder.gif'> $path</a><br>" >> $OUTPUT
 #  echo "  <UL>" >> $OUTPUT
@@ -19,4 +20,6 @@ for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| sor
 #  done
 #  echo "  </UL>" >> $OUTPUT
 done
+  echo "<a href='http://www.ev3lessons.com/resources/wheelconverter/calc.html'><img src='folder.gif'> EV3lessons Wheel Converter</a><br>" >> $OUTPUT
+  echo "<a href='coachcorner.html'><img src='folder.gif'> Coach's Corner</a><br>" >> $OUTPUT
 #echo "</UL>" >> $OUTPUT
