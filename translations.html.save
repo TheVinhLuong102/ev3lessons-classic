@@ -1,0 +1,2511 @@
+<div id="tab1" class="panel group showing" style="display: block;">
+<div class="fr" style="display: none;"><b>Toutes les leçons ne sont pas ici, car elles n'ont pas encore été traduites. Pour voir toutes les leçons (en anglais), cliquez sur le drapeau américain sur la barre supérieure.</b></div>
+<div class="nl" style="display: none;"><b>Alleen de lessen die vertaald zijn in Nederlands zijn zichtbaar op deze pagina. Ga, om alle lessen te bekijken, naar de Engelstalige site door bovenaan de pagina op de Amerikaanse vlag te klikken of op de onderstaande link.</b></div>
+<div class="pt" style="display: none;"><b>Apenas as lições já traduzidas estão disponíveis nessa página. Para acessar todas as lições disponíveis, por favor visite o site em inglês clicando na bandeira dos EUA acima ou no link abaixo.</b></div>
+<div class="es" style="display: none;"><b>Esta página solo muestra las lecciones traducidas.Para ver todas las lecciones disponibles, por favor visita la página inglesa, pulsando sobre la bandera americana o en el siguiente enlace.</b></div>
+<div class="ar" style="display: none;"><b>فقط الدروس التي تمت ترجمتها متواجدة على هذه الصفحة، لإظهار جميع الدروس المتوافرة يرجى زيارة الصفحة الإنجليزية عن طريق اختيار زر علم الولايات المتحدة الامريكية اعلاه أو على الرابط في الأسفل.</b></div>
+<div class="el" style="display: none;"><b>Δεν είναι όλα τα μαθήματα είναι εδώ, επειδή δεν έχουν μεταφραστεί ακόμα. Για να δείτε όλα τα μαθήματα (στα αγγλικά) κάντε κλικ στην σημαία των ΗΠΑ στην κορυφή.</b></div>
+<div class="ct" style="display: none;"><b>No totes les classes són aquí, perquè no s'han traduït encara. Per veure totes les lliçons (en anglès) feu clic a la bandera dels Estats Units en la barra superior.</b></div>
+<div class="he" style="display: none;"><b>לא כל השיעורים הם כאן, כי הם לא תורגמו עדיין. כדי להציג את כל השיעורים (באנגלית) לחץ על דגל ארה"ב על העליונה.</b></div>
+<div class="de" style="display: none;"><b>Nicht alle Lektionen sind hier, weil sie noch nicht
+  übersetzt wurden. Um alle Lektionen (auf Englisch) anzuzeigen,
+  klicken Sie auf die US-Flagge in der oberen Leiste.</b></div>
+  <script>
+  if (language != "en-us") {
+  document.write('<div>English site: <a href="/lessons.html#en-us"\
+    onclick="setTimeout(function(){location.reload(true);},100)">click\
+    here</a></div>')
+    }
+  </script>
+
+                <p class="beginner" id="beg-intro" style="display: none;">These lessons are for students new to the
+                  EV3. These lessons are designed to be completed in
+                  order.
+
+                </p>
+
+              <p class="intermediate" id="int-intro" style="display: none;">These lessons are for students who understand basic
+                      movement and sensor use.
+                    </p>
+
+                <p class="advanced" id="adv-intro" style="display: none;">These lessons are for students already familiar
+                    with MyBlocks and line following.
+                  </p>
+
+
+                <p class="beyond" id="other-intro" style="display: none;">These lessons are intended for EV3 users who have completed all our lessons and interested in trying and learning new techniques and sensors.
+                </p>
+
+
+                <p style="display: none" class="workshop" id="camp-intro">These are combined lesson curriculum that are
+                  ideal for camps
+                </p>
+
+                <p style="display: none;" class="wro" id="wro-intro">These are
+                lessons to help WRO teams.
+                </p>
+
+<br>
+<script>jekyll = 0</script>
+    
+                <div class="toggle toggle beginner robot base_robot robot_design droidbot בנו_רובוט_בסיסי_עם_זרועות he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">בנו רובוט בסיסי עם זרועות</a>')
+jekyll = jekyll+1
+</script> <a id="0" href="#" title="Close">בנו רובוט בסיסי עם זרועות</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li><a href="robots.html">Robot Design Lessons page</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es conceptos_básicos_de_ev3_introducción_al_bloque_ev3_y_su_software" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Conceptos Básicos de EV3 Introducción al Bloque EV3 y su Software</a>')
+jekyll = jekyll+1
+</script> <a id="1" href="#" title="Close">Conceptos Básicos de EV3 Introducción al Bloque EV3 y su Software</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/es/beginner/Introduction.pdf">PDF</a>
+ </li>
+ &lt;/li&gt;
+ &lt;/li&gt;
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner introev3 toggle how_to_use_these_lessons en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">How to use these lessons</a>')
+jekyll = jekyll+1
+</script> <a id="2" href="#" title="Close">How to use these lessons</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/LessonUse.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/LessonUse.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner ar مقدمة_الى_اللبنة_الذكية_ومحيط_البرمجة" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">مقدمة الى اللبنة الذكية ومحيط البرمجة</a>')
+jekyll = jekyll+1
+</script> <a id="3" href="#" title="Close">مقدمة الى اللبنة الذكية ومحيط البرمجة</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/ar/beginner/Introduction.pdf">PDF</a>
+ </li>
+ &lt;/li&gt;
+ &lt;/li&gt;
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner robot base_robot robot_design droidbot construindo_uma_base_do_robô_e_anexos pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Construindo uma Base do Robô e Anexos</a>')
+jekyll = jekyll+1
+</script> <a id="4" href="#" title="Close">Construindo uma Base do Robô e Anexos</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li><a href="robots.html">Robot Design Lessons page</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner robot base_robot robot_design droidbot robot_ontwerp nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Robot ontwerp</a>')
+jekyll = jekyll+1
+</script> <a id="5" href="#" title="Close">Robot ontwerp</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li><a href="robots.html">Robot Design Lessons page</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction introduction_to_brick_and_software מבוא_ללבנה_ולתוכנה he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">מבוא ללבנה ולתוכנה</a>')
+jekyll = jekyll+1
+</script> <a id="6" href="#" title="Close">מבוא ללבנה ולתוכנה</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Introduction.pdf">PDF</a>
+ </li>
+ <li>Edu vs. Home Edition Software: <a href="translations/en-us/guides//EDUvsHome.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>EV3 and NXT Compatibility: <a href="translations/en-us/guides//EV3andNXT.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>Updating Software &amp; Firmware: <a href="translations/en-us/guides//UpdatingHome.pdf">Quick
+ Guide for Home Edition</a> (English), <a href="translations/en-us/guides//UpdatingEdu.pdf">Quick
+ Guide for Edu Edition</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es bloque_pantalla" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Bloque Pantalla</a>')
+jekyll = jekyll+1
+</script> <a id="7" href="#" title="Close">Bloque Pantalla</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/es/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner robot base_robot robot_design droidbot build_a_base_robot en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Build a Base Robot</a>')
+jekyll = jekyll+1
+</script> <a id="8" href="#" title="Close">Build a Base Robot</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+<li>Refer to the <a href="robots.html">Robot Design Lessons page </a> for various base models that can be used with our lessons. If you are using an EV3, we recommend that you start with EV3 Enterprise, EV3 Discovery or the base robot in the EV3 Education Core Set. If you are using an NXT, our lessons are based on Cyberbot.
+</li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner ar السير_بشكل_مستقيم" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">السير بشكل مستقيم</a>')
+jekyll = jekyll+1
+</script> <a id="9" href="#" title="Close">السير بشكل مستقيم</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/ar/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+ <li><a href="translations/ar/beginner/MovingStraight.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner updating software firmware ev3 upload 1.07h 1.07e 1.09d en updating_software_and_firmware" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Updating Software and Firmware</a>')
+jekyll = jekyll+1
+</script> <a id="10" href="#" title="Close">Updating Software and Firmware</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+                         <li>Slides:
+                           <a href="translations/en-us/beginner/InstallingUpdates.pptx">PPTX</a>,
+                           <a href="translations/en-us/beginner/InstallingUpdates.pdf">PDF</a>
+                         </li>
+  </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction introduction_to_brick_and_software introdução_ao_brick_e_software pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introdução ao Brick e Software</a>')
+jekyll = jekyll+1
+</script> <a id="11" href="#" title="Close">Introdução ao Brick e Software</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Introduction.pdf">PDF</a>
+ </li>
+ <li>Edu vs. Home Edition Software: <a href="translations/en-us/guides//EDUvsHome.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>EV3 and NXT Compatibility: <a href="translations/en-us/guides//EV3andNXT.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>Updating Software &amp; Firmware: <a href="translations/en-us/guides//UpdatingHome.pdf">Quick
+ Guide for Home Edition</a> (English), <a href="translations/en-us/guides//UpdatingEdu.pdf">Quick
+ Guide for Edu Edition</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction introduction_to_brick_and_software introductie_intelligente_steen_en_software nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introductie Intelligente steen en software</a>')
+jekyll = jekyll+1
+</script> <a id="12" href="#" title="Close">Introductie Intelligente steen en software</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Introduction.pdf">PDF</a>
+ </li>
+ <li>Edu vs. Home Edition Software: <a href="translations/en-us/guides//EDUvsHome.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>EV3 and NXT Compatibility: <a href="translations/en-us/guides//EV3andNXT.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>Updating Software &amp; Firmware: <a href="translations/en-us/guides//UpdatingHome.pdf">Quick
+ Guide for Home Edition</a> (English), <a href="translations/en-us/guides//UpdatingEdu.pdf">Quick
+ Guide for Edu Edition</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving ipad programming_app tablet android app moving_straight forward backward תנועה_ישרה he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">תנועה ישרה</a>')
+jekyll = jekyll+1
+</script> <a id="13" href="#" title="Close">תנועה ישרה</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/he/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+ <li><a href="translations/he/beginner/MovingStraight.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es sensor_de_colores" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sensor de Colores</a>')
+jekyll = jekyll+1
+</script> <a id="14" href="#" title="Close">Sensor de Colores</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/es/beginner/Color.pdf">PDF</a>
+ </li>
+ <li>EV3 Tablet App Slides: <a href="translations/en-us/tablet-beginner/Color.pptx">PPTX</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction introduction_to_brick_and_software en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to Brick and Software</a>')
+jekyll = jekyll+1
+</script> <a id="15" href="#" title="Close">Introduction to Brick and Software</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Introduction.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Introduction.pdf">PDF</a>
+ </li>
+<li class="ng-binding">NXT Slides:
+<a href="translations/en-us/beginner/IntroductionNXT.pptx">PPTX</a>,
+<a href="translations/en-us/beginner/IntroductionNXT.pdf">PDF</a>
+</li>
+
+
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction introduction_to_brick_and_software ct ev3_bàsic_introducció_al_brick_ev3_i_al_programari" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">EV3 Bàsic Introducció al Brick Ev3 i al Programari</a>')
+jekyll = jekyll+1
+</script> <a id="16" href="#" title="Close">EV3 Bàsic Introducció al Brick Ev3 i al Programari</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+                        <li class="ng-binding">Slides:
+                          <a href="translations/ct/beginner/Introduction.pptx">PPTX</a>,
+                          <a href="translations/ct/beginner/Introduction.pdf">PDF</a>
+                        </li>
+
+                        <li>Edu vs. Home Edition Software: <a href="translations/en-us/guides//EDUvsHome.pdf">Quick
+                          Guide</a> (English)
+                        </li>
+                        <li>EV3 and NXT Compatibility: <a href="translations/en-us/guides//EV3andNXT.pdf">Quick
+                          Guide</a> (English)
+                        </li>
+                        <li>Updating Software &amp; Firmware: <a href="translations/en-us/guides//UpdatingHome.pdf">Quick
+                          Guide for Home Edition</a> (English), <a href="translations/en-us/guides//UpdatingEdu.pdf">Quick
+                            Guide for Edu Edition</a> (English)
+                          </li>
+                        </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner ar الدوران" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">الدوران</a>')
+jekyll = jekyll+1
+</script> <a id="17" href="#" title="Close">الدوران</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/beginner/Turning.pptx">PPTX</a>,
+ <a href="translations/ar/beginner/Turning.pdf">PDF</a>
+ </li>
+ <li><a href="translations/ar/beginner/Turning.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner programs programmes programming programming_app programing introev3 brick software ev3 buttons centre up- down- left- right- center- ipad tablet android app introduction en common_brick_issues" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Common Brick Issues</a>')
+jekyll = jekyll+1
+</script> <a id="18" href="#" title="Close">Common Brick Issues</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/CommonIssues.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/CommonIssues.pdf">PDF</a>
+ </li>
+
+
+
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner portview port_view brick ev3 usando_dados_do_sensor_e_port_view pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Usando Dados Do Sensor E Port View</a>')
+jekyll = jekyll+1
+</script> <a id="19" href="#" title="Close">Usando Dados Do Sensor E Port View</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/PortView.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/PortView.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving ipad programming_app tablet android app moving_straight forward backward rechtdoor_rijden nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Rechtdoor rijden</a>')
+jekyll = jekyll+1
+</script> <a id="20" href="#" title="Close">Rechtdoor rijden</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+ <li><a href="translations/nl/beginner/MovingStraight.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es interruptores" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Interruptores</a>')
+jekyll = jekyll+1
+</script> <a id="21" href="#" title="Close">Interruptores</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/Switches.pptx">PPTX</a>,
+ <a href="translations/es/beginner/Switches.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner portview port_view brick ev3 en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Port View</a>')
+jekyll = jekyll+1
+</script> <a id="22" href="#" title="Close">Port View</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/PortView.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/PortView.pdf">PDF</a>
+ </li>
+<li class="ng-binding">NXT Slides:
+<a href="translations/en-us/beginner/ViewNXT.pptx">PPTX</a>,
+<a href="translations/en-us/beginner/ViewNXT.pdf">PDF</a>
+</li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner portview port_view brick ev3 el ανάγνωση_θυρών_και_δεδομένων" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Ανάγνωση θυρών και δεδομένων</a>')
+jekyll = jekyll+1
+</script> <a id="23" href="#" title="Close">Ανάγνωση θυρών και δεδομένων</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/el/beginner/PortView.pptx">PPTX</a>,
+ <a href="translations/el/beginner/PortView.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving ipad programming_app tablet android app moving_straight forward backward movendo_em_linha_reta pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Movendo em Linha Reta</a>')
+jekyll = jekyll+1
+</script> <a id="24" href="#" title="Close">Movendo em Linha Reta</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+ <li><a href="translations/pt-br/beginner/MovingStraight.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner pseudocode nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Pseudocode</a>')
+jekyll = jekyll+1
+</script> <a id="25" href="#" title="Close">Pseudocode</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Pseudocode.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Pseudocode.pdf">PDF</a>
+ </li>
+ <li><a href="translations/nl/beginner/PseudocodeWorksheet.pdf">Worksheet</a>
+ </li>
+ <li>Using Comments to Improve Code: <a href="translations/en-us/guides//Comments.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>Mission Planning Worksheet <a href="translations/en-us/guides//MissionPlanning.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving programming_app ipad app turning tablet pivot spin point android סיבוב he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">סיבוב</a>')
+jekyll = jekyll+1
+</script> <a id="26" href="#" title="Close">סיבוב</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Turning.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Turning.pdf">PDF</a>
+ </li>
+ <li><a href="translations/he/beginner/Turning.docx">Worksheet</a>
+ </li>
+ <li>Truth About Turns - Pivot Turns <a href="translations/en-us/guides//PivotTurns.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es seguidor_básicode_líneas" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Seguidor Básicode Líneas</a>')
+jekyll = jekyll+1
+</script> <a id="27" href="#" title="Close">Seguidor Básicode Líneas</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/BasicLineFollower.pptx">PPTX</a>,
+ <a href="translations/es/beginner/BasicLineFollower.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/es/beginner/BasicLineFollower.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving ipad programming_app tablet android app moving_straight forward backward en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Moving Straight</a>')
+jekyll = jekyll+1
+</script> <a id="28" href="#" title="Close">Moving Straight</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+<li class="ng-binding">NXT Slides:
+<a href="translations/en-us/beginner/MovingStraightNXT.pptx">PPTX</a>,
+<a href="translations/en-us/beginner/MovingStraightNXT.pdf">PDF</a>
+</li>
+ <li><a href="translations/en-us/beginner/MovingStraight.docx">Worksheet</a>
+ </li>
+
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving ipad programming_app tablet android app moving_straight forward backward el προχωροντας_ευθεια" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">ΠΡΟΧΩΡΟΝΤΑΣ ΕΥΘΕΙΑ</a>')
+jekyll = jekyll+1
+</script> <a id="29" href="#" title="Close">ΠΡΟΧΩΡΟΝΤΑΣ ΕΥΘΕΙΑ</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/el/beginner/MovingStraight.pptx">PPTX</a>,
+ <a href="translations/el/beginner/MovingStraight.pdf">PDF</a>
+ </li>
+</ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner pseudocode começando_com_pseudocódigo pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Começando com Pseudocódigo</a>')
+jekyll = jekyll+1
+</script> <a id="30" href="#" title="Close">Começando com Pseudocódigo</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Pseudocode.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Pseudocode.pdf">PDF</a>
+ </li>
+ <li><a href="translations/pt-br/beginner/PseudocodeWorksheet.pdf">Worksheet</a>
+ </li>
+ <li>Using Comments to Improve Code: <a href="translations/en-us/guides//Comments.pdf">Quick
+ Guide</a> (English)
+ </li>
+ <li>Mission Planning Worksheet <a href="translations/en-us/guides//MissionPlanning.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving programming_app ipad app turning tablet pivot spin point android draaien nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Draaien</a>')
+jekyll = jekyll+1
+</script> <a id="31" href="#" title="Close">Draaien</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Turning.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Turning.pdf">PDF</a>
+ </li>
+ <li><a href="translations/nl/beginner/Turning.docx">Worksheet</a>
+ </li>
+ <li>Truth About Turns - Pivot Turns <a href="translations/en-us/guides//PivotTurns.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display programming_app displaying_text_and_graphics ipad tablet text graphics android display_block display_graphics app הצגת_מלל_וגרפיקה he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">הצגת מלל וגרפיקה</a>')
+jekyll = jekyll+1
+</script> <a id="32" href="#" title="Close">הצגת מלל וגרפיקה</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner es desafios_finales" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Desafios Finales</a>')
+jekyll = jekyll+1
+</script> <a id="33" href="#" title="Close">Desafios Finales</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/beginner/FinalChallenge.pptx">PPTX</a>,
+ <a href="translations/es/beginner/FinalChallenge.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/es/beginner/FinalAssessment.docx">Assessment</a>
+ </li>
+ <li> <a href="challenges.html">More Challenges</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner pseudocode en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Pseudocode</a>')
+jekyll = jekyll+1
+</script> <a id="34" href="#" title="Close">Pseudocode</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Pseudocode.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Pseudocode.pdf">PDF</a>
+ </li>
+ <li><a href="translations/en-us/beginner/PseudocodeWorksheet.pdf">Worksheet</a>
+ </li>
+
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving programming_app ipad app turning tablet pivot spin point android virada pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Virada</a>')
+jekyll = jekyll+1
+</script> <a id="35" href="#" title="Close">Virada</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Turning.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Turning.pdf">PDF</a>
+ </li>
+ <li><a href="translations/pt-br/beginner/Turning.docx">Worksheet</a>
+ </li>
+ <li>Truth About Turns - Pivot Turns <a href="translations/en-us/guides//PivotTurns.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display programming_app displaying_text_and_graphics ipad tablet text graphics android display_block display_graphics app tekst_en_grafieken_weergeven nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Tekst en grafieken weergeven</a>')
+jekyll = jekyll+1
+</script> <a id="36" href="#" title="Close">Tekst en grafieken weergeven</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner touch touch_sensor sesnsors ipad tablet android programming_app app wait_block motor_on חיישן_מגע he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">חיישן מגע</a>')
+jekyll = jekyll+1
+</script> <a id="37" href="#" title="Close">חיישן מגע</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Touch.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Touch.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es seguidor_de_pared_ultrasonico" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Seguidor de Pared Ultrasonico</a>')
+jekyll = jekyll+1
+</script> <a id="38" href="#" title="Close">Seguidor de Pared Ultrasonico</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/UltrasonicWallFollow.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/UltrasonicWallFollow.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner moving programming_app ipad app turning tablet pivot spin point android basic_turning en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Basic Turning</a>')
+jekyll = jekyll+1
+</script> <a id="39" href="#" title="Close">Basic Turning</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Turning.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Turning.pdf">PDF</a>
+ </li>
+<li class="ng-binding">NXT Slides:
+<a href="translations/en-us/beginner/TurningNXT.pptx">PPTX</a>,
+<a href="translations/en-us/beginner/TurningNXT.pdf">PDF</a>
+ </li><li><a href="translations/en-us/beginner/Turning.docx">Worksheet</a>
+ </li>
+
+
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner ar كيفية_التقاط_وتحريك_جسم_ما" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">كيفية التقاط وتحريك جسم ما</a>')
+jekyll = jekyll+1
+</script> <a id="40" href="#" title="Close">كيفية التقاط وتحريك جسم ما</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/beginner/MoveObject.pptx">PPTX</a>,
+ <a href="translations/ar/beginner/MoveObject.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display programming_app displaying_text_and_graphics ipad tablet text graphics android display_block display_graphics app blocos_de_vizualização pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Blocos de vizualização</a>')
+jekyll = jekyll+1
+</script> <a id="41" href="#" title="Close">Blocos de vizualização</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner touch touch_sensor sesnsors ipad tablet android programming_app app wait_block motor_on tastsensor nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Tastsensor</a>')
+jekyll = jekyll+1
+</script> <a id="42" href="#" title="Close">Tastsensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Touch.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Touch.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor ipad tablet app reflected_light light_sensor color_mode colour_mode android חיישן_צבע he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">חיישן צבע</a>')
+jekyll = jekyll+1
+</script> <a id="43" href="#" title="Close">חיישן צבע</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Color.pdf">PDF</a>
+ </li>
+ <li>EV3 Tablet App Slides: <a href="translations/en-us/tablet-beginner/Color.pptx">PPTX</a> (English)
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es botones_del_ladrillo_ev3" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Botones del Ladrillo EV3</a>')
+jekyll = jekyll+1
+</script> <a id="44" href="#" title="Close">Botones del Ladrillo EV3</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/BrickButtons.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/BrickButtons.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display programming_app displaying_text_and_graphics ipad tablet text graphics android display_block display_graphics app en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Displaying Text and Graphics</a>')
+jekyll = jekyll+1
+</script> <a id="45" href="#" title="Close">Displaying Text and Graphics</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display programming_app displaying_text_and_graphics ipad tablet text graphics android display_block display_graphics app el απεικόνιση_κειμένου_και_γραφικών" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Απεικόνιση Κειμένου και Γραφικών</a>')
+jekyll = jekyll+1
+</script> <a id="46" href="#" title="Close">Απεικόνιση Κειμένου και Γραφικών</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/el/beginner/Display.pptx">PPTX</a>,
+ <a href="translations/el/beginner/Display.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle beginner ar موضوع_الدرس:_التحدي_النهائي_للمرحلة_الأساسية" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">موضوع الدرس: التحدي النهائي للمرحلة الأساسية</a>')
+jekyll = jekyll+1
+</script> <a id="47" href="#" title="Close">موضوع الدرس: التحدي النهائي للمرحلة الأساسية</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/beginner/FinalChallenge.pptx">PPTX</a>,
+ <a href="translations/ar/beginner/FinalChallenge.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/ar/beginner/FinalAssessment.docx">Assessment</a>
+ </li>
+ <li> <a href="challenges.html">More Challenges</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display custom sounds sound_block display_block image_editor sound_editor images sons_e_imagens_customizadas pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sons E Imagens Customizadas</a>')
+jekyll = jekyll+1
+</script> <a id="48" href="#" title="Close">Sons E Imagens Customizadas</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/CustomImagesSounds.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/CustomImagesSounds.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor ipad tablet app reflected_light light_sensor color_mode colour_mode android kleurensensor nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Kleurensensor</a>')
+jekyll = jekyll+1
+</script> <a id="49" href="#" title="Close">Kleurensensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Color.pdf">PDF</a>
+ </li>
+ <li>EV3 Tablet App Slides: <a href="translations/en-us/tablet-beginner/Color.pptx">PPTX</a> (English)
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner loops programming_app app ipad tablet android לולאות he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">לולאות</a>')
+jekyll = jekyll+1
+</script> <a id="50" href="#" title="Close">לולאות</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Loops.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Loops.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es cables_de_datos" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Cables de Datos</a>')
+jekyll = jekyll+1
+</script> <a id="51" href="#" title="Close">Cables de Datos</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/DataWires.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/DataWires.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display custom sounds sound_block display_block image_editor sound_editor images custom_images_and_sounds en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Custom Images and Sounds</a>')
+jekyll = jekyll+1
+</script> <a id="52" href="#" title="Close">Custom Images and Sounds</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/CustomImagesSounds.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/CustomImagesSounds.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner display custom sounds sound_block display_block image_editor sound_editor images custom_images_and_sounds el προσαρμοσμένες_εικόνες_και_ήχοι" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Προσαρμοσμένες Εικόνες και Ήχοι</a>')
+jekyll = jekyll+1
+</script> <a id="53" href="#" title="Close">Προσαρμοσμένες Εικόνες και Ήχοι</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/el/beginner/CustomImagesSounds.pptx">PPTX</a>,
+ <a href="translations/el/beginner/CustomImagesSounds.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate ar استكشاف_أخطاء_البرمجة_وتصحيحها" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">استكشاف أخطاء البرمجة وتصحيحها</a>')
+jekyll = jekyll+1
+</script> <a id="54" href="#" title="Close">استكشاف أخطاء البرمجة وتصحيحها</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/intermediate/Debug.pptx">PPTX</a>,
+ <a href="translations/ar/intermediate/Debug.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner touch touch_sensor sesnsors ipad tablet android programming_app app wait_block motor_on sensor_de_toque pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sensor de Toque</a>')
+jekyll = jekyll+1
+</script> <a id="55" href="#" title="Close">Sensor de Toque</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Touch.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Touch.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner loops programming_app app ipad tablet android herhalingen nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Herhalingen</a>')
+jekyll = jekyll+1
+</script> <a id="56" href="#" title="Close">Herhalingen</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Loops.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Loops.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner switches ipad app tablet android מתגים he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">מתגים</a>')
+jekyll = jekyll+1
+</script> <a id="57" href="#" title="Close">מתגים</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Switches.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Switches.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es introduccion_a_mis_bloques" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduccion a Mis Bloques</a>')
+jekyll = jekyll+1
+</script> <a id="58" href="#" title="Close">Introduccion a Mis Bloques</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/MyBlocks.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/MyBlocks.pdf">PDF</a>
+ </li>
+ <li>My Blocks <a href="translations/en-us/guides//MyBlockGuide.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner touch touch_sensor sesnsors ipad tablet android programming_app app wait_block motor_on introduction_to_touch_sensor en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to Touch Sensor</a>')
+jekyll = jekyll+1
+</script> <a id="59" href="#" title="Close">Introduction to Touch Sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Touch.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Touch.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate ar الأوامر_المتوازية" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">الأوامر المتوازية</a>')
+jekyll = jekyll+1
+</script> <a id="60" href="#" title="Close">الأوامر المتوازية</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/ar/intermediate/ParallelBeams.pptx">PPTX</a>,
+ <a href="translations/ar/intermediate/ParallelBeams.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor ipad tablet app reflected_light light_sensor color_mode colour_mode android sensor_de_cor pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sensor de cor</a>')
+jekyll = jekyll+1
+</script> <a id="61" href="#" title="Close">Sensor de cor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Color.pdf">PDF</a>
+ </li>
+ <li>EV3 Tablet App Slides: <a href="translations/en-us/tablet-beginner/Color.pptx">PPTX</a> (English)
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner switches ipad app tablet android schakelingen(keuzes) nl schakelingen_-_keuzes" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Schakelingen - keuzes</a>')
+jekyll = jekyll+1
+</script> <a id="62" href="#" title="Close">Schakelingen - keuzes</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Switches.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Switches.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner ultrasonic sensors ipad ultrasonic_sensor programming_app app tablet android חיישן_אולטרא_סוני he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">חיישן אולטרא סוני</a>')
+jekyll = jekyll+1
+</script> <a id="63" href="#" title="Close">חיישן אולטרא סוני</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/Ultrasonic.pptx">PPTX</a>,
+ <a href="translations/he/beginner/Ultrasonic.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es sensor_infrarrojo" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sensor Infrarrojo</a>')
+jekyll = jekyll+1
+</script> <a id="64" href="#" title="Close">Sensor Infrarrojo</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Infrared.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Infrared.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor ipad tablet app reflected_light light_sensor color_mode colour_mode android introduction_to_color_sensor en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to Color Sensor</a>')
+jekyll = jekyll+1
+</script> <a id="65" href="#" title="Close">Introduction to Color Sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Color.pdf">PDF</a>
+ </li>
+ <li>EV3 Tablet App Slides: <a href="translations/en-us/tablet-beginner/Color.pptx">PPTX</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor ipad tablet app reflected_light light_sensor color_mode colour_mode android introduction_to_color_sensor el αισθητήρας_χρώματος" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Αισθητήρας Χρώματος</a>')
+jekyll = jekyll+1
+</script> <a id="66" href="#" title="Close">Αισθητήρας Χρώματος</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/el/beginner/Color.pptx">PPTX</a>,
+ <a href="translations/el/beginner/Color.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner color colour colour_sensor sensors programming_app colour_sensor color_sensor reflected_light light_sensor color_mode colour_mode light_sesnsor light nxt nxt_light en introduction_to_nxt_light_sensor_on_the_nxt_platform" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to NXT Light Sensor on the NXT Platform</a>')
+jekyll = jekyll+1
+</script> <a id="67" href="#" title="Close">Introduction to NXT Light Sensor on the NXT Platform</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/LightNXT.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/LightNXT.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner loops programming_app app ipad tablet android repetindo_ações pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Repetindo Ações</a>')
+jekyll = jekyll+1
+</script> <a id="68" href="#" title="Close">Repetindo Ações</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Loops.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Loops.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner ultrasonic sensors ipad ultrasonic_sensor programming_app app tablet android ultrasone_sensor nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Ultrasone sensor</a>')
+jekyll = jekyll+1
+</script> <a id="69" href="#" title="Close">Ultrasone sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/Ultrasonic.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/Ultrasonic.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner beginner color colour colour_sensor follower basic line_tracker sensors ipad tablet programming_app app android line_follower line colour_sensor basic_line_follower מעקב_פשוט_אחר_קו he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">מעקב פשוט אחר קו</a>')
+jekyll = jekyll+1
+</script> <a id="70" href="#" title="Close">מעקב פשוט אחר קו</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/BasicLineFollower.pptx">PPTX</a>,
+ <a href="translations/he/beginner/BasicLineFollower.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/he/beginner/BasicLineFollower.docx">Worksheet</a>
+ </li>
+ <li>One Minute Line Follower: <a href="translations/en-us/guides//OneMinuteLineFollower.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es depuración" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Depuración</a>')
+jekyll = jekyll+1
+</script> <a id="71" href="#" title="Close">Depuración</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Debug.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Debug.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner loops programming_app app ipad tablet android en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Loops</a>')
+jekyll = jekyll+1
+</script> <a id="72" href="#" title="Close">Loops</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Loops.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Loops.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner switches ipad app tablet android pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Switches</a>')
+jekyll = jekyll+1
+</script> <a id="73" href="#" title="Close">Switches</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Switches.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Switches.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner beginner color colour colour_sensor follower basic line_tracker sensors ipad tablet programming_app app android line_follower line colour_sensor basic_line_follower basis_lijnvolger nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Basis lijnvolger</a>')
+jekyll = jekyll+1
+</script> <a id="74" href="#" title="Close">Basis lijnvolger</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/BasicLineFollower.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/BasicLineFollower.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/nl/beginner/BasicLineFollower.docx">Worksheet</a>
+ </li>
+ <li>One Minute Line Follower: <a href="translations/en-us/guides//OneMinuteLineFollower.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner large_motor_block attachments passive medium_motor_block moving object moving_object העברה_של_חפץ he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">העברה של חפץ</a>')
+jekyll = jekyll+1
+</script> <a id="75" href="#" title="Close">העברה של חפץ</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/MoveObject.pptx">PPTX</a>,
+ <a href="translations/he/beginner/MoveObject.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es técnicas_de_precisión" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Técnicas de Precisión</a>')
+jekyll = jekyll+1
+</script> <a id="76" href="#" title="Close">Técnicas de Precisión</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Reliability.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Reliability.pdf">PDF</a>
+ </li>
+ <li>Improving Robot Reliability <a href="translations/en-us/guides//ReliabilityGuide.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner switches ipad app tablet android en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Switches</a>')
+jekyll = jekyll+1
+</script> <a id="77" href="#" title="Close">Switches</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Switches.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Switches.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block notes tones beeps noises rsf importando_blocos_lego_adicionais pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Importando Blocos LEGO adicionais</a>')
+jekyll = jekyll+1
+</script> <a id="78" href="#" title="Close">Importando Blocos LEGO adicionais</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/ImportingBlocks.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/ImportingBlocks.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner large_motor_block attachments passive medium_motor_block moving object moving_object een_object_verplaatsen nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Een object verplaatsen</a>')
+jekyll = jekyll+1
+</script> <a id="79" href="#" title="Close">Een object verplaatsen</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/MoveObject.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/MoveObject.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner challenge final_challenge אתגר_מסכם he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">אתגר מסכם</a>')
+jekyll = jekyll+1
+</script> <a id="80" href="#" title="Close">אתגר מסכם</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/beginner/FinalChallenge.pptx">PPTX</a>,
+ <a href="translations/he/beginner/FinalChallenge.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/he/beginner/FinalAssessment.docx">Assessment</a>
+ </li>
+ <li> <a href="challenges.html">More Challenges</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es calibración_de_sensor_de_colores" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Calibración de Sensor de Colores</a>')
+jekyll = jekyll+1
+</script> <a id="81" href="#" title="Close">Calibración de Sensor de Colores</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Calibrate.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Calibrate.pdf">PDF</a>
+ </li>
+ <li>Shielding and Calibration: <a href="translations/en-us/guides//ShieldingCalibrate.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block notes tones beeps noises rsf importing_additional_lego_blocks en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Importing Additional LEGO Blocks</a>')
+jekyll = jekyll+1
+</script> <a id="82" href="#" title="Close">Importing Additional LEGO Blocks</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/ImportingBlocks.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/ImportingBlocks.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block notes tones beeps noises rsf bloco_de_som pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Bloco de Som</a>')
+jekyll = jekyll+1
+</script> <a id="83" href="#" title="Close">Bloco de Som</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/SoundBlock.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/SoundBlock.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner challenge final_challenge eindopdracht nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Eindopdracht</a>')
+jekyll = jekyll+1
+</script> <a id="84" href="#" title="Close">Eindopdracht</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/beginner/FinalChallenge.pptx">PPTX</a>,
+ <a href="translations/nl/beginner/FinalChallenge.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/nl/beginner/FinalAssessment.docx">Assessment</a>
+ </li>
+ <li> <a href="challenges.html">More Challenges</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate software myblocks blocks my_blocks parameters parametres inputs outputs my_block_builder בלוק_מותאם_אישית he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">בלוק מותאם אישית</a>')
+jekyll = jekyll+1
+</script> <a id="85" href="#" title="Close">בלוק מותאם אישית</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/MyBlocks.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/MyBlocks.pdf">PDF</a>
+ </li>
+ <li>My Blocks <a href="translations/en-us/guides//MyBlockGuide.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es variables" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Variables</a>')
+jekyll = jekyll+1
+</script> <a id="86" href="#" title="Close">Variables</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Variables.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Variables.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block notes tones beeps noises rsf en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sound Block</a>')
+jekyll = jekyll+1
+</script> <a id="87" href="#" title="Close">Sound Block</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/SoundBlock.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/SoundBlock.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block introdução_ao_sensor_de_som_do_nxt pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introdução ao Sensor de Som do NXT</a>')
+jekyll = jekyll+1
+</script> <a id="88" href="#" title="Close">Introdução ao Sensor de Som do NXT</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/SoundSensor.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/SoundSensor.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate software myblocks blocks my_blocks parameters parametres inputs outputs my_block_builder mijn_blokken_met_inputs/outputs nl mijn_blokken_met_inputs_-_outputs" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Mijn blokken met inputs - outputs</a>')
+jekyll = jekyll+1
+</script> <a id="89" href="#" title="Close">Mijn blokken met inputs - outputs</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/MyBlocks.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/MyBlocks.pdf">PDF</a>
+ </li>
+ <li>My Blocks <a href="translations/en-us/guides//MyBlockGuide.pdf">Quick
+ Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate moving myblocks move_inches move_centimeters move_centimetres move_cm wheelconverter my_blocks moving_with תנועה_עם_בלוק_מותאם_אישית he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">תנועה עם בלוק מותאם אישית</a>')
+jekyll = jekyll+1
+</script> <a id="90" href="#" title="Close">תנועה עם בלוק מותאם אישית</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/MoveDistance.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/MoveDistance.pdf">PDF</a>
+ </li>
+ <li>Moving in Inches/Centimeters Resources:
+ <a href="translations/he/intermediate/DPIorDPCWorksheet.pdf">Worksheet</a>
+ </li>
+ <li>Wheel Converter Tool <a href="translations/en-us/guides//wheelconverter">Web Version</a>,
+ <a href="https://itunes.apple.com/us/app/wheel-converter-for-ev3/id1042474404?ls=1&amp;mt=8">iOS Version</a>,
+ <a href="https://play.google.com/store/apps/details?id=com.ev3lessons.wheelconverter">Android Version</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate moving myblocks move_inches move_centimeters move_centimetres move_cm wheelconverter my_blocks moving_with contrôle_moteur_personnalisé fr" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Contrôle moteur personnalisé</a>')
+jekyll = jekyll+1
+</script> <a id="91" href="#" title="Close">Contrôle moteur personnalisé</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+                        <li class="ng-binding">Slides:
+                          <a href="translations/fr/intermediate/MoveDistance.pptx">PPTX</a>,
+                          <a href="translations/fr/intermediate/MoveDistance.pdf">PDF</a>
+                        </li>
+                        <li>Moving in Inches/Centimeters Resources:
+                          <a href="translations/fr/intermediate/DPIorDPCWorksheet.pdf">Worksheet</a>
+                        </li>
+                        <li>Wheel Converter Tool <a href="translations/en-us/guides//wheelconverter">Web Version</a>,
+                          <a href="https://itunes.apple.com/us/app/wheel-converter-for-ev3/id1042474404?ls=1&amp;mt=8">iOS Version</a>,
+                          <a href="https://play.google.com/store/apps/details?id=com.ev3lessons.wheelconverter">Android Version</a>
+                        </li>
+                      </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es operaciones_logicas" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Operaciones Logicas</a>')
+jekyll = jekyll+1
+</script> <a id="92" href="#" title="Close">Operaciones Logicas</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/Logic.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/Logic.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner sound sound_block introduction_to_sound_sensor en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to Sound Sensor</a>')
+jekyll = jekyll+1
+</script> <a id="93" href="#" title="Close">Introduction to Sound Sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/SoundSensor.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/SoundSensor.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner ultrasonic sensors ipad ultrasonic_sensor programming_app app tablet android ultrassônico pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Ultrassônico</a>')
+jekyll = jekyll+1
+</script> <a id="94" href="#" title="Close">Ultrassônico</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/Ultrasonic.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/Ultrasonic.pdf">PDF</a>
+ </li>
+ <li>Using Sensors: Move Until <a href="translations/en-us/guides//MoveUntil.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate moving myblocks move_inches move_centimeters move_centimetres move_cm wheelconverter my_blocks moving_with bewegen_met_mijn_blokken nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Bewegen met mijn blokken</a>')
+jekyll = jekyll+1
+</script> <a id="95" href="#" title="Close">Bewegen met mijn blokken</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/MoveDistance.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/MoveDistance.pdf">PDF</a>
+ </li>
+ <li>Moving in Inches/Centimeters Resources:
+ <a href="translations/nl/intermediate/DPIorDPCWorksheet.pdf">Worksheet</a>
+ </li>
+ <li>Wheel Converter Tool <a href="translations/en-us/guides//wheelconverter">Web Version</a>,
+ <a href="https://itunes.apple.com/us/app/wheel-converter-for-ev3/id1042474404?ls=1&amp;mt=8">iOS Version</a>,
+ <a href="https://play.google.com/store/apps/details?id=com.ev3lessons.wheelconverter">Android Version</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate myblocks moving turning my_blocks turn_degrees turning_with rotation_sensor פנייה_עם_בלוק_מותאם_אישית he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">פנייה עם בלוק מותאם אישית</a>')
+jekyll = jekyll+1
+</script> <a id="96" href="#" title="Close">פנייה עם בלוק מותאם אישית</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/TurnDegrees.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/TurnDegrees.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate software myblocks blocks my_blocks parameters parametres inputs outputs my_block_builder “mes_blocs”_avec_entrées_et_sorties fr" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">“Mes Blocs” avec entrées et sorties</a>')
+jekyll = jekyll+1
+</script> <a id="97" href="#" title="Close">“Mes Blocs” avec entrées et sorties</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+                        <li class="ng-binding">Slides:
+                          <a href="translations/fr/intermediate/MyBlocks.pptx">PPTX</a>,
+                          <a href="translations/fr/intermediate/MyBlocks.pdf">PDF</a>
+                        </li>
+                        <li>My Blocks <a href="translations/en-us/guides//MyBlockGuide.pdf">Quick
+                          Guide</a> (English)
+                        </li>
+                      </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle intermediate es como_usar_vigas_paralelas" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Como Usar Vigas Paralelas</a>')
+jekyll = jekyll+1
+</script> <a id="98" href="#" title="Close">Como Usar Vigas Paralelas</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/intermediate/ParallelBeams.pptx">PPTX</a>,
+ <a href="translations/es/intermediate/ParallelBeams.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner ultrasonic sensors ipad ultrasonic_sensor programming_app app tablet android introduction_to_ultrasonic_sensor en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Introduction to Ultrasonic Sensor</a>')
+jekyll = jekyll+1
+</script> <a id="99" href="#" title="Close">Introduction to Ultrasonic Sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/Ultrasonic.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/Ultrasonic.pdf">PDF</a>
+ 
+ &lt;/ul&gt;
+</li></ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner beginner color colour colour_sensor follower basic line_tracker sensors ipad tablet programming_app app android line_follower line colour_sensor basic_line_follower seguidor_de_linha_básico pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Seguidor de Linha Básico</a>')
+jekyll = jekyll+1
+</script> <a id="100" href="#" title="Close">Seguidor de Linha Básico</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/BasicLineFollower.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/BasicLineFollower.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/pt-br/beginner/BasicLineFollower.docx">Worksheet</a>
+ </li>
+ <li>One Minute Line Follower: <a href="translations/en-us/guides//OneMinuteLineFollower.pdf">Quick Guide</a> (English)
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate myblocks moving turning my_blocks turn_degrees turning_with rotation_sensor draaien_met_mijn_blokken nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Draaien met mijn blokken</a>')
+jekyll = jekyll+1
+</script> <a id="101" href="#" title="Close">Draaien met mijn blokken</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/TurnDegrees.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/TurnDegrees.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle line_follower line toggle line intermediate color colour colour_sensor sensors follower linefollower tracker line_traker my_blocks sensor_block מעקב_אחר_קו_צבע_עם_בלוק_מותאם_אישית he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">מעקב אחר קו צבע עם בלוק מותאם אישית</a>')
+jekyll = jekyll+1
+</script> <a id="102" href="#" title="Close">מעקב אחר קו צבע עם בלוק מותאם אישית</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<h4>Color Follower for Distance:</h4>
+<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/ColorFollowerDistance.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/ColorFollowerDistance.pdf">PDF</a>
+ </li>
+ <h4>Color Follower Stops Based on Color Detection:</h4>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/ColorFollowerSensor.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/ColorFollowerSensor.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle advanced es sincronización_de_vigas_en_paralelo" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Sincronización de vigas en paralelo</a>')
+jekyll = jekyll+1
+</script> <a id="103" href="#" title="Close">Sincronización de vigas en paralelo</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/advanced/SyncBeams.pptx">PPTX</a>,
+ <a href="translations/es/advanced/SyncBeams.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner beginner color colour colour_sensor follower basic line_tracker sensors ipad tablet programming_app app android line_follower line colour_sensor basic_line_follower en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Basic Line Follower</a>')
+jekyll = jekyll+1
+</script> <a id="104" href="#" title="Close">Basic Line Follower</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/BasicLineFollower.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/BasicLineFollower.pdf">PDF</a>
+ </li>
+<li class="ng-binding">NXT Slides:
+<a href="translations/en-us/beginner/BasicLineFollowerNXT.pptx">PPTX</a>,
+<a href="translations/en-us/beginner/BasicLineFollowerNXT.pdf">PDF</a>
+</li>
+
+ <li> <a href="translations/en-us/beginner/BasicLineFollower.docx">Worksheet</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner large_motor_block attachments passive medium_motor_block moving object moving_object levantar_e_mover_um_objeto pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Levantar e Mover um Objeto</a>')
+jekyll = jekyll+1
+</script> <a id="105" href="#" title="Close">Levantar e Mover um Objeto</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/MoveObject.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/MoveObject.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle line_follower line toggle line intermediate color colour colour_sensor sensors follower linefollower tracker line_traker my_blocks sensor_block kleuren_lijnvolger_/_mijn_blokken nl kleuren_lijnvolger_-_mijn_blokken" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Kleuren lijnvolger - Mijn blokken</a>')
+jekyll = jekyll+1
+</script> <a id="106" href="#" title="Close">Kleuren lijnvolger - Mijn blokken</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<h4>Color Follower for Distance:</h4>
+<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/ColorFollowerDistance.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/ColorFollowerDistance.pdf">PDF</a>
+ </li>
+ <h4>Color Follower Stops Based on Color Detection:</h4>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/ColorFollowerSensor.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/ColorFollowerSensor.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate infrared sensors infrared_sensor beacon remote remote_control חיישן_אינפרא_אדום he" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">חיישן אינפרא אדום</a>')
+jekyll = jekyll+1
+</script> <a id="107" href="#" title="Close">חיישן אינפרא אדום</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/he/intermediate/Infrared.pptx">PPTX</a>,
+ <a href="translations/he/intermediate/Infrared.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle advanced es control_proporcional" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Control Proporcional</a>')
+jekyll = jekyll+1
+</script> <a id="108" href="#" title="Close">Control Proporcional</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/es/advanced/ProportionalControl.pptx">PPTX</a>,
+ <a href="translations/es/advanced/ProportionalControl.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner large_motor_block attachments passive medium_motor_block moving object moving_object moving_an_object en" style="display: block;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Moving An Object</a>')
+jekyll = jekyll+1
+</script> <a id="109" href="#" title="Close">Moving An Object</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/en-us/beginner/MoveObject.pptx">PPTX</a>,
+ <a href="translations/en-us/beginner/MoveObject.pdf">PDF</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle beginner challenge final_challenge desafios_finais pt" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Desafios Finais</a>')
+jekyll = jekyll+1
+</script> <a id="110" href="#" title="Close">Desafios Finais</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/pt-br/beginner/FinalChallenge.pptx">PPTX</a>,
+ <a href="translations/pt-br/beginner/FinalChallenge.pdf">PDF</a>
+ </li>
+ <li> <a href="translations/pt-br/beginner/FinalAssessment.docx">Assessment</a>
+ </li>
+ <li> <a href="challenges.html">More Challenges</a>
+ </li>
+ </ul>
+
+                  </div>
+<br>
+                </div>
+	 
+                <div class="toggle toggle intermediate infrared sensors infrared_sensor beacon remote remote_control infrarood_sensor nl" style="display: none;">
+                  <p class="tab-index tab-closed">
+<script>
+document.write(' <a id="'+jekyll+'" href="#" title="Close">Infrarood Sensor</a>')
+jekyll = jekyll+1
+</script> <a id="111" href="#" title="Close">Infrarood Sensor</a>
+
+                  </p>
+                  <div class="content-tab closed indent" style="display: none;">
+			<ul>
+ <li class="ng-binding">Slides:
+ <a href="translations/nl/intermediate/Infrared.pptx">PPTX</a>,
+ <a href="translations/nl/intermediate/Infrared.pdf">PDF</a>
+

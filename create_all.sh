@@ -17,5 +17,8 @@ cd ..
 cd tablet
 bash ../create_lessons.sh Tablet
 cd ..
+cd robots-lxf
+bash ../create_robots.sh Robots
+cd ..
 bash create_master.sh
 

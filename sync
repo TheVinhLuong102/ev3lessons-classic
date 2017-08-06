@@ -1,0 +1,5 @@
+cat ../ev3lessons.github.io/_site/coachcorner.html  | grep -e span -e h3 -e post | fgrep -v  '\' > coachcorner.tmp
+cat ../ev3lessons.github.io/_site/corevalues.html  | grep -e span -e h3 -e post | fgrep -v  '\' > corevalues.tmp
+cp -vr ../ev3lessons.github.io/translations/en-us/{beginner,intermediate,advanced,beyond} ../ev3lessons.github.io/_site/coachcorner ../ev3lessons.github.io/translations/ ../ev3lessons.github.io/_site/corevalues ./
+rm -r robots-lxf
+cp -vr ../ev3lessons.github.io/robots robots-lxf
