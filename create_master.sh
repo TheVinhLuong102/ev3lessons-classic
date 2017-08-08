@@ -9,7 +9,7 @@ OUTPUT="index.html"
 
 i=0
 echo "<style>h1 {color:red;font-family:verdana;font-size:200%;} b  {    color:green;    font-family:arial;    font-size:100%} p  {    color:brown;    font-family:arial;    font-size:110%}</style>" > $OUTPUT
-echo "<h1>EV3lessons.com v4.9.5 Simple Edition (v1.5.1 Code Base)</h1>" >> $OUTPUT
+echo "<h1>EV3lessons.com v4.9.6 Simple Edition (v1.5.1 Code Base)</h1>" >> $OUTPUT
 echo "<p>This is an auto-generated site with just the English lessons. This contains just the bare minimum js/css/html to download the content. It is intended for use on old browsers/computers. </p><b>You have been redirected here because you are using an old browser (older than Microsoft Internet Explorer 9.0)</b><br>To view the full site, download a modern browser: <a href='http://chrome.google.com'>Google Chrome<a> or <a href='http://firefox.com'>Mozilla Firefox</a><br><br>" >> $OUTPUT
 #echo "<UL>" > $OUTPUT
 for filepath in `find "$ROOT" -maxdepth 1 -mindepth 1 -type d|fgrep -v .git| fgrep -v coach|fgrep -v images|fgrep -v corevalues|fgrep -v translations|sort`; do
