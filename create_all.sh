@@ -17,6 +17,12 @@ cd ..
 cd tablet
 bash ../create_lessons.sh Tablet
 cd ..
+cd wro
+bash ../create_lessons.sh Wro
+cd ..
+cd fll
+bash ../create_lessons.sh FLL
+cd ..
 cd robots-lxf
 bash ../create_robots.sh Robots
 cd ..
